@@ -1,4 +1,4 @@
-function inverterString(str) {
-    return str.split('').reverse().join('');
-}
-console.log(inverterString("Panela"));
+let palavra = "Panela";
+let invertida = palavra.split("").reverse().join("");
+
+console.log(invertida);
